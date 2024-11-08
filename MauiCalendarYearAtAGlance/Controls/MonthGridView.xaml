@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiCalendarYearAtAGlance.Controls.MonthGridView">
+    <Grid RowDefinitions=".2*, .2*, .2*, .2*, .2*"
+          ColumnDefinitions=".16*,.16*,.16*,.16*,.16*,.16*,.16*">
+
+        <Border Stroke="LightGray"
+                StrokeThickness="1">
+            <!--<BoxView BackgroundColor="White" />-->
+            <Label Text="1"
+                   HorizontalOptions="End"
+                   VerticalOptions="Start" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="1">
+            <BoxView BackgroundColor="White" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="2">
+            <BoxView BackgroundColor="White" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="3">
+            <BoxView BackgroundColor="White" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="4">
+            <BoxView BackgroundColor="White" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="5">
+            <BoxView BackgroundColor="White" />
+        </Border>
+        <Border Stroke="LightGray"
+                StrokeThickness="1"
+                Grid.Row="0"
+                Grid.Column="6">
+            <BoxView BackgroundColor="White" />
+        </Border>
+
+    </Grid>
+    
+</ContentView>
+

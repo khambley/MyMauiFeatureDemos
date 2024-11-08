@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138703412354",
+    "project_id": "mauipushnotificationdemo-f291a",
+    "storage_bucket": "mauipushnotificationdemo-f291a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138703412354:android:cb55f21aa4369f0ce1289b",
+        "android_client_info": {
+          "package_name": "com.superdesigngirl.mauipushnotificationsdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7tP4GgejxONV-JmIdROkH3eM6nw7a0Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:MauiCustomControlDemo.Controls"
+             x:Class="MauiCustomControlDemo.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+           <controls:CardControl Title="Hello MAUI! From Katherine">
+                <VerticalStackLayout>
+                    <Label Text="Card Control Body" />
+
+                </VerticalStackLayout>
+
+            </controls:CardControl>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+

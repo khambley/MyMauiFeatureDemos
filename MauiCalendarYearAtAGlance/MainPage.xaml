@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:MauiCalendarYearAtAGlance.Controls"
+             x:Class="MauiCalendarYearAtAGlance.MainPage">
+<ScrollView>
+<Grid>
+    <Grid x:Name="fourRowGrid"
+          IsVisible="False"
+          RowDefinitions=".25*, .25*, .25*, .25*"
+          ColumnDefinitions=".3*, .3*, .3*">
+
+        <BoxView Color="AliceBlue" />
+        <Label Text="January"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Column="1"
+                 Color="LightSkyBlue" />
+        <Label Grid.Column="1"
+               Text="February"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Column="2"
+                 Color="CadetBlue" />
+        <Label Grid.Column="2"
+               Text="March"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="1"
+                 Color="CornflowerBlue" />
+        <Label Grid.Row="1"
+               Text="April"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="DodgerBlue" />
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="May"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="2"
+                 Color="DarkSlateBlue" />
+        <Label Grid.Row="1"
+               Grid.Column="2"
+               Text="June"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="2"
+                 Color="SteelBlue" />
+        <Label Grid.Row="2"
+               Text="July"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="LightBlue" />
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="August"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="2"
+                 Color="BlueViolet" />
+        <Label Grid.Row="2"
+               Grid.Column="2"
+               Text="September"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="0"
+                 Color="Teal" />
+        <Label Grid.Row="3"
+               Grid.Column="0"
+               Text="October"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="GreenYellow" />
+        <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="November"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="2"
+                 Color="SteelBlue" />
+        <Label Grid.Row="3"
+               Grid.Column="2"
+               Text="December"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+        
+    </Grid>
+    <Grid x:Name="sixRowGrid"
+          IsVisible="True"
+          RowDefinitions="250, 250, 250, 250, 250, 250"
+          ColumnDefinitions=".5*, .5*">
+
+        <!--<BoxView Color="AliceBlue"
+                 Grid.Row="0"
+                 Grid.Column="0" />
+        <Label Text="January"
+               Grid.Row="0"
+               Grid.Column="0"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />-->
+        <controls:MonthGridView Grid.Row="0"
+                                Grid.Column="0" />
+
+        <BoxView Color="LightSkyBlue"
+                 Grid.Row="0"
+                 Grid.Column="1" />
+        <Label Grid.Row="0"
+               Grid.Column="1"
+               Text="February"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="0"
+                 Color="CadetBlue" />
+        <Label Grid.Row="1"
+               Grid.Column="0"
+               Text="March"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="1"
+                 Grid.Column="1"
+                 Color="CornflowerBlue" />
+        <Label Grid.Row="1"
+               Grid.Column="1"
+               Text="April"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="0"
+                 Color="DodgerBlue" />
+        <Label Grid.Row="2"
+               Grid.Column="0"
+               Text="May"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="DarkSlateBlue" />
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="June"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="0"
+                 Color="SteelBlue" />
+        <Label Grid.Row="3"
+               Grid.Column="0"
+               Text="July"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="LightBlue" />
+        <Label Grid.Row="3"
+               Grid.Column="1"
+               Text="August"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="0"
+                 Color="BlueViolet" />
+        <Label Grid.Row="4"
+               Grid.Column="0"
+               Text="September"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="4"
+                 Grid.Column="1"
+                 Color="Teal" />
+        <Label Grid.Row="4"
+               Grid.Column="1"
+               Text="October"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="5"
+                 Grid.Column="0"
+                 Color="GreenYellow" />
+        <Label Grid.Row="5"
+               Grid.Column="0"
+               Text="November"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <BoxView Grid.Row="5"
+                 Grid.Column="1"
+                 Color="SteelBlue" />
+        <Label Grid.Row="5"
+               Grid.Column="1"
+               Text="December"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+        
+    </Grid>
+
+</Grid>
+
+</ScrollView>
+
+    
+
+</ContentPage>
+
