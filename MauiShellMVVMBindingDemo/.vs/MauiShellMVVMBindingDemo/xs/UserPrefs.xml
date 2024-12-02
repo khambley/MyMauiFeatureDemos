@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{2043999B-E627-433C-8742-676828C84A3D}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.MauiShellMVVMBindingDemo PreferredExecutionTarget="MyAppleMacCatalystID" FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DetailPage.xaml">
+    <Files>
+      <File FileName="MainPage.xaml.cs" />
+      <File FileName="MainPage.xaml" Line="15" Column="18" />
+      <File FileName="Models/Item.cs" Line="9" Column="1" />
+      <File FileName="ViewModels/MainViewModel.cs" Line="27" Column="62" />
+      <File FileName="DetailPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MauiShellMVVMBindingDemo" expanded="True">
+            <Node name="MauiShellMVVMBindingDemo" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="DetailPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

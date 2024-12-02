@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_CodesignBundle Include="MauiShellMVVMBindingDemo.app">
+      <CodesignSigningKey>4793D0BED936BB24F1CE4043347C32BA974C21BC</CodesignSigningKey>
+      <CodesignEntitlements>/Users/katherinehambley/Projects/MyMauiFeatureDemos/MauiShellMVVMBindingDemo/obj/Debug/net8.0-ios/ios-arm64/Entitlements.xcent</CodesignEntitlements>
+      <CodesignUseSecureTimestamp></CodesignUseSecureTimestamp>
+      <CodesignAllocate>/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate</CodesignAllocate>
+      <RequireCodeSigning>true</RequireCodeSigning>
+      <CodesignExtraArgs></CodesignExtraArgs>
+      <CodesignResourceRules></CodesignResourceRules>
+      <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
+      <CodesignKeychain></CodesignKeychain>
+      <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
+      <SourceProjectPath>/Users/katherinehambley/Projects/MyMauiFeatureDemos/MauiShellMVVMBindingDemo</SourceProjectPath>
+    </_CodesignBundle>
+  </ItemGroup>
+</Project>

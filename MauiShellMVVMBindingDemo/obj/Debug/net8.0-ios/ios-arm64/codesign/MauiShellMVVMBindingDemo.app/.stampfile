@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign 4793D0BED936BB24F1CE4043347C32BA974C21BC --entitlements /Users/katherinehambley/Projects/MyMauiFeatureDemos/MauiShellMVVMBindingDemo/obj/Debug/net8.0-ios/ios-arm64/Entitlements.xcent /Users/katherinehambley/Projects/MyMauiFeatureDemos/MauiShellMVVMBindingDemo/bin/Debug/net8.0-ios/ios-arm64/MauiShellMVVMBindingDemo.app
